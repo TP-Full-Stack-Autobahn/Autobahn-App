@@ -1,0 +1,3 @@
+[submodule "Autobahn"]
+	path = Autobahn
+	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn.git
