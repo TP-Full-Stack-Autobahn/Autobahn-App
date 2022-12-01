@@ -1,8 +1,8 @@
 # Autobahn-App
 
 Groupe : 
-HOCHET Dylan
-MENDEL Quentin
-HEROLD Alexis
+  - HOCHET Dylan
+  - MENDEL Quentin
+  - HEROLD Alexis
 
-Projet crée de zéro
+# Projet crée de zéro
