@@ -8,3 +8,6 @@
 [submodule "Autobahn-User"]
 	path = Autobahn-User
 	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-User
+[submodule "Autobahn-Proxy"]
+	path = Autobahn-Proxy
+	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-Proxy.git
