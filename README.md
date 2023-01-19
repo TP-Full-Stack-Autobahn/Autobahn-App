@@ -70,7 +70,9 @@ php bin/console doctrine:migrations:migrate || symfony doctrine:migrations:migra
 php bin/console doctrine:fixtures:load || symfony doctrine:fixtures:load
 ```
 
+```bash
 php bin/console lexik:jwt:generate-keypair
+```
 
 
 ### Setup and publish react library UI (Autobahn-UI)
