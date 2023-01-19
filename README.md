@@ -22,10 +22,10 @@ git clone --recurse-submodules https://github.com/TP-Full-Stack-Autobahn/Autobah
 
 ### Setup express api proxy service (Autobahn-Proxy)
 
+Go in project folder and run this following command :
 
 #### Install
 
-Go in project folder and run this following command :
 
 ```bash
   npm run i || install
@@ -113,8 +113,7 @@ npm run yalc:build
 
 ### Setup front website in local (Autobahn)
 
-In service console, run this following commands :
-
+Go in project folder and run this following command :
 
 #### Install
 
