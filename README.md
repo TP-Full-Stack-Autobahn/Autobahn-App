@@ -19,7 +19,7 @@ Groupe :
 
 #### Install
 
-In service console, run this following command :
+Go in project folder and run this following command :
 
 ```bash
   npm run i || install
