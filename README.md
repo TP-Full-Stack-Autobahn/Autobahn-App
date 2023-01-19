@@ -8,6 +8,12 @@ Groupe :
 
 ## Getting Started
 
+Git clone project with submodules, paste and run the following command :
+
+```bash
+git clone --recurse-submodules https://github.com/TP-Full-Stack-Autobahn/Autobahn-App.git
+```
+
 1. Install proxy packages service from project
 2. Build images and run docker container with Mysql Database
 3. Configure symfony API service from project
