@@ -17,8 +17,6 @@ services:
     working_dir: /var/www
     volumes:
       - ./Autobahn-Car:/var/www
-    ports:
-      - 5002:5002
     environment:
       FLASK_ENV: development
     networks:
