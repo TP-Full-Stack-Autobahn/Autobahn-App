@@ -20,9 +20,11 @@ git clone --recurse-submodules https://github.com/TP-Full-Stack-Autobahn/Autobah
 
 1. Install and run Docker Desktop
 2. Setup express api proxy service (Autobahn-Proxy)
-3. Setup symfony api service (Autobahn-User)
-4. Setup and publish react library UI (Autobahn-UI)
-5. Setup front website and run it in local (Autobahn)
+3. Setup Symfony api service (Autobahn-User)
+4. Setup Flask api service (Autobahn-Car)
+5. Setup and publish react library UI (Autobahn-UI)
+6. Setup front website and run it in local (Autobahn)
+
 
 <br>
 <br>
@@ -66,7 +68,7 @@ Go in project folder and run this following command :
 <br>
 <br>
 
-### 3. Setup symfony api service (Autobahn-User)
+### 3. Setup Symfony api service (Autobahn-User)
 
 #### Configuration
 
@@ -111,7 +113,45 @@ php bin/console lexik:jwt:generate-keypair
 <br>
 <br>
 
-### 4. Setup and publish react library UI (Autobahn-UI)
+### 4. Setup Flask api service (Autobahn-Car)
+
+#### Configuration
+
+If you have modified the user service database credentials (via docker-compose file), don't forget to also change it in the `config.py` file :
+
+```bash
+'DATABASE_URL', 'mysql+pymysql://admin:admin@db:3306/autobahn_user?charset=utf8mb4'
+```
+
+#### Install
+
+To install the car service, go to the user container console. There are two ways to do it :
+
+```bash
+docker-compose exec car sh
+```
+
+OR with Docker desktop by going to the `Containers` tab, in the `service-car`. Click on the 3 dots (show container actions) and select `Open in terminal`
+
+When you are there, enter the following commands :
+
+```bash
+flask db init
+```
+
+```bash
+flask db migrate
+```
+
+```bash
+flask db upgrade
+```
+
+<br>
+<br>
+<br>
+
+### 5. Setup and publish react library UI (Autobahn-UI)
 
 Go in project folder and run this following command :
 
@@ -147,7 +187,7 @@ npm run yalc:build
 <br>
 <br>
 
-### 5. Setup front website and run it in local (Autobahn)
+### 6. Setup front website and run it in local (Autobahn)
 
 Go in project folder and run this following command :
 
