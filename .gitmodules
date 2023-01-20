@@ -11,3 +11,6 @@
 [submodule "Autobahn-Proxy"]
 	path = Autobahn-Proxy
 	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-Proxy.git
+[submodule "Autobahn-Car"]
+	path = Autobahn-Car
+	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-Car.git
