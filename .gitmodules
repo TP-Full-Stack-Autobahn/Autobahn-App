@@ -14,3 +14,6 @@
 [submodule "Autobahn-Car"]
 	path = Autobahn-Car
 	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-Car.git
+[submodule "Autobahn-Software"]
+	path = Autobahn-Software
+	url = https://github.com/TP-Full-Stack-Autobahn/Autobahn-Software.git
